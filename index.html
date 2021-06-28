@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <main>
+        <div class="quize-box" id="quiz">
+            <h2 id="question">How old are you ?</h2>
+
+            <ul class="answers">
+                <li>
+                    <input
+                    class="answer"
+                     name="answer"
+                     id="a"
+                     type="radio">
+
+                    <label
+                     id="a_text"
+                     for="a">Question</label>
+                </li>
+                <li>
+                    <input class="answer" name="answer" id="b" type="radio">
+                    <label id="b_text" for="b">Question</label>
+                </li>
+                <li>
+                    <input class="answer" name="answer" id="c" type="radio">
+                    <label id="c_text" for="c">Question</label>
+                </li>
+                <li>
+                    <input class="answer" name="answer" id="d" type="radio">
+                    <label id="d_text" for="d">Question</label>
+                </li>
+            </ul>
+            <button id="submit" class="btn">Answer</button>
+
+        </div>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
